@@ -1,7 +1,5 @@
 package com.endes.figuras;
 
-package com.endes.figuras;
-
 /**
  * Clase abstracta que representa una figura geométrica genérica.
  * Todas las figuras geométricas deben extender esta clase e implementar
@@ -17,7 +15,7 @@ public abstract class FiguraGeometrica implements Comparable<FiguraGeometrica> {
     /**
      * Nombre de la figura geométrica.
      */
-    protected String nombre;
+    protected String name;
 
     /**
      * Color de la figura geométrica.

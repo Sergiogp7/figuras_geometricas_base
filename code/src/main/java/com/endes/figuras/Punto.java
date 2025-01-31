@@ -18,7 +18,7 @@ public class Punto{
 	public void setY(double y) {
 		this.y =y;
 	}
-	public double distancia (Punto otro) {
+	public double distancia(Punto otro) {
 		double diferenciaX = this.x - otro.getX();
         double diferenciaY = this.y - otro.getY();
         return Math.sqrt(Math.pow(diferenciaX, 2) + Math.pow(diferenciaY, 2));

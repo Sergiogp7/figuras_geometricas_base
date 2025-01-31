@@ -1,6 +1,9 @@
 package com.endes.figuras;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e86304506b803fe0dd29eb318da9dd24ebb02e25
 /**
  * Clase abstracta que representa una figura geométrica genérica.
  * Todas las figuras geométricas deben extender esta clase e implementar

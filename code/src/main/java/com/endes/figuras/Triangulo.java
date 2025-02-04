@@ -5,15 +5,15 @@ public class Triangulo extends FiguraGeometrica {
 	Punto v1;
 	Punto v2;
 	Punto v3;
-	Punto v4;
+	Double altura;
 
 	
-	public Triangulo(String nombre, String color, Punto v1,Punto v2, Punto v3,Punto v4) {
+	public Triangulo(String nombre, String color, Punto v1,Punto v2, Punto v3, Double altura) {
 		super(nombre, color);
 		this.v1=v1;
 		this.v2=v2;
 		this.v3=v3;
-		this.v4=v4;
+		this.altura=altura;
 		
 		
 		
@@ -22,9 +22,8 @@ public class Triangulo extends FiguraGeometrica {
 	@Override
 	public double area() {
 		double base= v1.distancia(v2);
-		double v4= base/2;
-		double altura=v3.distancia(v4); 
-		return 0;
+		
+		return (base*altura)/2;
 	}
 
 	@Override

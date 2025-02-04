@@ -23,4 +23,5 @@ public class Punto{
         double diferenciaY = this.y - otro.getY();
         return Math.sqrt(Math.pow(diferenciaX, 2) + Math.pow(diferenciaY, 2));
 	}
+
 }
